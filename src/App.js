@@ -12,9 +12,10 @@ export default function App() {
       <h1>Timer React</h1>
       <CountdownTimer targetDate={dateTime} />
       <Start/>
-    <>
+     {
+    /* <>
     <ClockClassComponent></ClockClassComponent>
-    </>
+    </> */}
     </div>
   );
 
